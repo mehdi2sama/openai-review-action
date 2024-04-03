@@ -6,7 +6,7 @@ branding:
 inputs:
   GIT_COMMIT_HASH:
     description: 'SHA of the pull request-head to attach a review comment'
-    required: true
+    required: false
   GIT_PATCH_OUTPUT:
     description: 'The pull request in patch format for prompt interpretation'
     required: true
